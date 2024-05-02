@@ -1,0 +1,53 @@
+/* Luiz Gustavo da Silva Santana */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 300px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+select{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 30px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+input{
+    width: 400px;
+    height: 50px;
+}
+h2{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
